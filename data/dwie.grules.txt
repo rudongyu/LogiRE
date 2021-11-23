@@ -1,0 +1,39 @@
+1 ['~spouse_of'] spouse_of
+2 ['~vs'] vs
+3 ['won_vs'] vs
+4 ['~won_vs'] vs
+5 ['~child_of'] parent_of
+6 ['~parent_of'] child_of
+7 ['ministry_of'] agency_of
+8 ['agency_of-x', 'gpe0'] agency_of
+9 ['agency_of', '~gpe0'] agency_of-x
+10 ['agent_of-x', 'gpe0'] agent_of
+11 ['agent_of', '~gpe0'] agent_of-x
+12 ['minister_of'] agent_of
+13 ['head_of_gov'] agent_of
+14 ['head_of_state'] agent_of
+15 ['citizen_of-x', 'gpe0'] citizen_of
+16 ['citizen_of', '~gpe0'] citizen_of-x
+17 ['minister_of-x', 'gpe0'] minister_of
+18 ['minister_of', '~gpe0'] minister_of-x
+19 ['head_of_state-x', 'gpe0'] head_of_state
+20 ['head_of_state', '~gpe0'] head_of_state-x
+21 ['head_of_gov-x', 'gpe0'] head_of_gov
+22 ['head_of_gov', '~gpe0'] head_of_gov-x
+23 ['in0-x', 'gpe0'] in0
+24 ['in0', '~gpe0'] in0-x
+25 ['in2', 'in0'] in0
+26 ['in1', 'in0'] in0
+27 ['based_in2', 'in0'] based_in0
+28 ['based_in1', 'in0'] based_in0
+29 ['event_in2', 'in0'] event_in0
+30 ['event_in1', 'in0'] event_in0
+31 ['head_of'] member_of
+32 ['coach_of'] member_of
+33 ['spokesperson_of'] member_of
+34 ['mayor_of'] head_of_gov
+35 ['directed_by'] created_by
+36 ['~played_by', 'character_in'] plays_in
+37 ['institution_of'] part_of
+38 ['based_in0-x', 'gpe0'] based_in0
+39 ['based_in0', '~gpe0'] based_in0-x
